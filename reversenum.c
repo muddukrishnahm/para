@@ -1,8 +1,8 @@
 #include<stdio.h>  
-void rev()    
+void reversenum ()    
 {    
 int n, reverse=0, rem;    
-printf("Enter a number: ");    
+printf("\nEnter a number: ");    
   scanf("%d", &n);    
   while(n!=0)    
   {    
@@ -10,6 +10,6 @@ printf("Enter a number: ");
      reverse=reverse*10+rem;    
      n/=10;    
   }    
-  printf("Reversed Number: %d",reverse);    
+  printf("\nReversed Number: %d",reverse);    
 
 }   
