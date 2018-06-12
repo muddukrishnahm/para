@@ -5,7 +5,7 @@ void big3()
 {
  int a, b, c;
  
- printf("Please Enter three different values\n");
+ printf("\nPlease Enter three different values\n");
  scanf("%d %d %d", &a, &b, &c);
  
  if (a > b && a > c) 
